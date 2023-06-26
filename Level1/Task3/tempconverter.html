@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tempconverter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div id="divId">
+    <form id="formId" onsubmit="tempConverter();
+    return false">
+        <h2>Temperature Converter
+            <i class="fa-solid fa-temperature-three-quarters" style="color: #f1f4f9;"></i>
+        </h2>
+        <input type="number" id="inputId" name = "temp" placeholder="Enter value" class="input1">
+        <select name="selectId" id="selectId" class="select">
+            <option value="celsius">&#176;celsius</option>
+            <option value="fahrenheit">&#176;fahrenheit</option>
+        </select>
+        <br>
+        <input type="submit" id="submitId" name="temp" class="input3">
+        <h3 id="headId"></h3>
+    </form>
+    <button id="resetId">Reset</button>
+    </div>
+   <script src="tempconverter.js"></script>
+</body>
+</html>

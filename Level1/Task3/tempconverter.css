@@ -1,0 +1,74 @@
+div{
+    background: linear-gradient(#e62e2e, #3d49d5);
+    width: 400px;
+    height: 400px;
+    box-shadow:0px 0px 5px 2px #140101;
+    margin: 10%  40% ;
+}
+div h2{
+    color: #faf4f4;
+    text-align: center;
+    padding-top: 20px;
+    font-family:cursive;
+}
+.input1{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 70px 65px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.select{
+    height: 40px;
+    width: 255px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 70px 65px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;  
+}
+.input3{
+    float: left;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: linear-gradient(to right,rgb(9, 175, 241),rgb(240, 50, 224));
+    color: #faf4f4;
+    margin:30px 80px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+div button{
+    margin: 0px 85px;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px 10px;
+    background: linear-gradient(to right,rgb(9, 158, 218),rgb(84, 246, 184));
+    color: rgb(4, 4, 154);
+}
+div button:hover, div button:active, div button:focus{
+    background: #fff; 
+    transition-delay: 20ms;
+    transform: scaleX(1.1);
+}
+.btn1{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.btn1:hover, .btn1:active, .btn1:focus{
+      background: #f4854e;
+}
+div h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin:30px 50px;
+}

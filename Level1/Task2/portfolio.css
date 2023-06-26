@@ -1,0 +1,209 @@
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    background-repeat: space;
+}
+.image{
+    height: 310px;
+    width: 400px;
+    padding-left: 15%;
+    margin-top: 13%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 45%;
+    float: left;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.image:focus, .image:active, .image:hover{
+    transform: scale(0.95);
+}
+.text{
+    padding-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+.para{
+    font-size: 25px;
+    margin-right: 250px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+  width: 100%;
+  position: absolute;
+  padding: 10px 70%; 
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.container3{
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    margin-top: 16%;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flexbox;
+}
+.head1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 80px;
+}
+.row1{
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 50px;
+}
+.row2{
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 150px;
+}
+.para1{
+    padding-top: 2%;
+    padding-left: 10%;
+    font-size: 17px;
+}
+.para2{
+    padding-left: 7%;
+    padding-right: 5%;
+    font-size: 17px;
+}
+.row3{
+    padding-top: 5%;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 200px;
+}
+.row4{
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 150px;
+}
+.para3{
+    padding-left: 10%;
+    font-size: 17px;
+    padding-right: 200px;
+}
+.para4{
+    padding-left: 10%;
+    padding-right: 350px;
+    font-size: 17px;
+}
+.container4{
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.head2{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 80px;
+}
+.image2{
+    height: 310px;
+    width: 400px;
+    margin-left: 20%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.image2:hover{
+    
+    transform: scale(0.95);
+}
+.ul-list{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 10%;
+    padding-top: 2%;
+    
+}
+.container5{
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    margin-top: 13%;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.head3{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 80px;
+}
+.input1{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 20px;
+    margin-left: 85%;
+}
+.input2{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 20px;
+    margin-left: 135%;
+}
+.input3{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 20px;
+    margin-left: 85%;
+    margin-top: 10%;
+}
+.input4{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 20px;
+    margin-left: 135%;
+    margin-top: 10%;
+}
+.textarea{
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 37%;
+}
+.button{
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: darkcyan;
+    border-width: 0px;
+    padding: 10px 15px;
+    margin: 0px 600px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.button:hover, .button:active, .button:focus{
+    box-shadow: 0 0 10px floralwhite;
+    transform: scale(0.8);
+}
+.ul-list1{
+    display: inline-block;
+    list-style-type: none;
+}
