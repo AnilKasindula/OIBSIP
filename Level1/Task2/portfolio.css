@@ -50,6 +50,7 @@ nav ul li a{
 
 .container3{
     background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    background-size:cover;
     margin-top: 16%;
     width: 100%;
     height: 100vh;
@@ -106,6 +107,7 @@ nav ul li a{
 }
 .container4{
     background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    background-size:cover;
     width: 100%;
     height: 100vh;
     color: #fff;
@@ -137,6 +139,7 @@ nav ul li a{
 }
 .container5{
     background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+    background-size:cover;
     margin-top: 13%;
     width: 100%;
     height: 100vh;
